@@ -21,9 +21,9 @@ This exercise is part of my effort to strengthen and showcase my understanding o
 
 We model the relationship between two independent variables \( x_1, x_2 \) and a dependent variable \( y \) as:
 
-\[
+$$\[
 y_{\text{pred}} = w_1 x_1 + w_2 x_2 + w_3
-\]
+\]$$
 
 Using matrix notation:
 
