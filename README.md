@@ -76,14 +76,10 @@ where $\alpha$ is the learning rate.
 ## **Dataset**
 
 The model is tested on the following UCI dataset:
-
-- **Forest Fires**  
-  - $\( x_1 = \text{wind} \)$  
-  - $\( x_2 = \text{rain} \)$  
-  - $\( y = \text{area} \)$
-
-You may choose any of them; in this project I used:  
-👉 **[Specify here the dataset you selected]**
+**Forest Fires**  
+  - $\ x_1 = \text{wind} \$  
+  - $\ x_2 = \text{rain} \$  
+  - $\ y = \text{area} \$
 
 ---
 
@@ -96,7 +92,7 @@ The project includes:
 - matrix‑based implementation of the model  
 - gradient descent loop  
 - tracking of weight updates  
-- visualization of the 3D trajectory of \( (w_1, w_2, w_3) \)  
+- visualization of the 3D trajectory of $\ (w_1, w_2, w_3) \$  
 - final evaluation of the model  
 
 All code is written in Python using only:
@@ -111,7 +107,7 @@ No ML libraries are used for the core algorithm.
 
 ## **3D Visualization of Weight Trajectory**
 
-During gradient descent, the weights \( w_1, w_2, w_3 \) evolve over time.  
+During gradient descent, the weights $\( w_1, w_2, w_3 \)$ evolve over time.  
 This project includes a **3D plot** showing the trajectory of the weights across iterations.
 
 This visualization helps illustrate:
