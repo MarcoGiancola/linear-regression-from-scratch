@@ -19,15 +19,15 @@ This exercise is part of my effort to strengthen and showcase my understanding o
 
 ## **Model Formulation**
 
-We model the relationship between two independent variables \( x_1, x_2 \) and a dependent variable \( y \) as:
+We model the relationship between two independent variables $\( x_1, x_2 \)$ and a dependent variable \( y \) as:
 
-$$\[
+$$\
 y_{\text{pred}} = w_1 x_1 + w_2 x_2 + w_3
-\]$$
+\$$
 
 Using matrix notation:
 
-\[
+$$\
 W = 
 \begin{bmatrix}
 w_1 \\
@@ -41,11 +41,11 @@ x_1 \\
 x_2 \\
 1
 \end{bmatrix}
-\]
+\$$
 
-\[
+$$\
 y_{\text{pred}} = W^T X
-\]
+\$$
 
 ---
 
@@ -53,21 +53,21 @@ y_{\text{pred}} = W^T X
 
 The cost function is the **Mean Squared Error (MSE)**:
 
-\[
+$$\
 \text{Loss} = \frac{1}{N} \sum_{j=1}^{N} (y_j - y_{\text{pred},j})^2
-\]
+\$$
 
 The gradient of the loss with respect to the weights is:
 
-\[
+$$\
 \nabla_W = -X (y - y_{\text{pred}})
-\]
+\$$
 
 Weights are updated iteratively using gradient descent:
 
-\[
+$$\
 W := W - \alpha \nabla_W
-\]
+\$$
 
 where \( \alpha \) is the learning rate.
 
