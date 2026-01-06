@@ -76,6 +76,7 @@ where $\alpha$ is the learning rate.
 ## **Dataset**
 
 The model is tested on the following UCI dataset:
+
 **Forest Fires**  
   - $\ x_1 = \text{wind} \$  
   - $\ x_2 = \text{rain} \$  
