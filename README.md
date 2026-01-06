@@ -19,7 +19,7 @@ This exercise is part of my effort to strengthen and showcase my understanding o
 
 ## **Model Formulation**
 
-We model the relationship between two independent variables $\( x_1, x_2 \)$ and a dependent variable \( y \) as:
+We model the relationship between two independent variables $\( x_1, x_2 \)$ and a dependent variable y as:
 
 $$\
 y_{\text{pred}} = w_1 x_1 + w_2 x_2 + w_3
@@ -69,28 +69,18 @@ $$\
 W := W - \alpha \nabla_W
 \$$
 
-where \( \alpha \) is the learning rate.
+where $\alpha$ is the learning rate.
 
 ---
 
 ## **Dataset**
 
-The model is tested on one of the following UCI datasets:
-
-- **Air Quality**  
-  - \( x_1 = T \) (Temperature)  
-  - \( x_2 = RH \) (Relative Humidity)  
-  - \( y = CO(GT) \)
-
-- **Automobile**  
-  - \( x_1 = \text{length} \)  
-  - \( x_2 = \text{horsepower} \)  
-  - \( y = \text{price} \)
+The model is tested on the following UCI dataset:
 
 - **Forest Fires**  
-  - \( x_1 = \text{wind} \)  
-  - \( x_2 = \text{rain} \)  
-  - \( y = \text{area} \)
+  - $\( x_1 = \text{wind} \)$  
+  - $\( x_2 = \text{rain} \)$  
+  - $\( y = \text{area} \)$
 
 You may choose any of them; in this project I used:  
 👉 **[Specify here the dataset you selected]**
